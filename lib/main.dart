@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => FiveWeatherScreenController()),
       ],
       child: MaterialApp(
-        title: 'Sky Cast',
+        title: 'SkyCast',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
